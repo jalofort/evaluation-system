@@ -1,0 +1,40 @@
+/* on off button */
+.btn-toggle.active {
+	background-color: #28a745;
+}
+.btn-toggle.active {
+	transition: background-color 0.25s;
+}
+.btn.active, .btn:active {
+	background-image: none;
+}
+.btn-toggle {
+	padding: 0;
+	position: relative;
+	border: none;
+	height: 1.5rem;
+	width: 3rem;
+	border-radius: 1.5rem;
+	color: #6b7381;
+	background: #dc3545;
+}
+.switch-btn .handle {
+	position: absolute;
+	top: 0.1875rem;
+	width: 1.125rem;
+	height: 1.125rem;	
+	border-radius: 1.125rem;
+	background: #fff;
+}
+.btn-toggle.active > .handle {
+	left: 0.1875rem;
+	transition: left 0.25s;
+}
+.btn-toggle > .handle {
+	left: 1.6875rem;
+	transition: left 0.25s;
+}
+.switch-btn span {
+	padding-right: 0.5rem;
+	color: #b9bbbd;
+}

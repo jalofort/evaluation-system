@@ -1,0 +1,155 @@
+/* general */
+body { 
+	height: 100vh;
+	background-color: #eff0f3;
+}
+.navbar {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	z-index: 1;
+	background-color: #aa8e1a!important;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)
+}
+
+.navbar a:not(.dropdown-item) {
+	color: #FFF!important;
+}
+
+.navbar li {
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+.page-content {
+	padding: 75px 0px 20px;
+}
+
+.footer {
+	font-size: 14px;
+	text-align: right;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	padding-bottom: 15px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.card {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.btn-print {
+	color: #fff!important;
+}
+
+.breadcrumb {
+	font-size: 30px;
+}
+
+.navbar-nav .dropdown-menu {
+	position: absolute;
+}
+
+small {
+	font-size: 60%;
+}
+
+.loading-img {
+	width: 10%;
+	display: none;
+}
+
+/* end general */
+
+/* error page */
+.msg-div {
+	color: #644084;
+	text-shadow: 0 0 10px #0000006b;
+}
+
+.icon-div {
+	font-size: 300px;
+	color: #644084;
+	line-height: 1px;
+	text-shadow: 0 0 5px #0000006b
+}
+/* end error page */
+
+/* login page */
+.login-div {
+	color: #353535b5;
+	font-size: 1.2rem;
+}
+
+.login-form {
+	margin: 50px auto 0px;
+}
+
+.login-form h1 {
+	margin-bottom: 1.5rem;
+}
+
+.login-forget-password {
+	color: #999;
+	margin: 1em 0;
+	text-align: center;
+}
+.login-logo {
+	width: 40%;
+	padding-bottom: 20px;
+}
+.login-btn {
+	-moz-box-shadow: inset 0px 1px 0px 0px #7a8eb9;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #7a8eb9;
+	box-shadow: inset 0px 1px 0px 0px #7a8eb9;
+	background-color: #f6f6f6;
+	display: inline-block;
+	color: #353535b5;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.login-btn:hover {
+	background-color: #aa8e1a;
+	color: #fff;
+}
+/* end login page */
+
+/* home dashboard */
+.dashboard-shortcuts .shortcut {
+	width: 100%;
+	height: 50%;
+	display: inline-block;
+	padding: 20px;
+	margin: 0 .9% 1em;
+	vertical-align: top;
+	text-decoration: none;
+	background-color: #FFF;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.dashboard-shortcuts .shortcut:hover {
+	color: #FFF;
+	background: #aa8e1a;
+}
+
+shortcut:hover {
+	background: #aa8e1a;
+	text-decoration: none;
+}
+/* end home dashboard */
+
+/* register page */
+
+#form-register button {
+
+}
+/* end register page */
