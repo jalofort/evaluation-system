@@ -9,7 +9,10 @@ This is an evaluation system that allows company leaders or managers to evaluate
 - Evaluate employees on specific points.
 
 ## Stack
-**Yii2 framework**, **JQuery**, **Bootstrap**, **MYSQL**.
+- Yii2 framework
+- JQuery
+- Bootstrap
+- MYSQL
 
 ## Demo
 Check out the demo! - [project1.mahmoudsaad.net](http://project1.mahmoudsaad.net)
