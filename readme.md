@@ -12,4 +12,4 @@ This is an evaluation system that allows company leaders or managers to evaluate
 **Yii2 framework**, **JQuery**, **Bootstrap**, **MYSQL**.
 
 ## Demo
-[project1.mahmoudsaad.net](http://project1.mahmoudsaad.net)
+Check out the demo! - [project1.mahmoudsaad.net](http://project1.mahmoudsaad.net)
